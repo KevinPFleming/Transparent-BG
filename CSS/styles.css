@@ -1,0 +1,42 @@
+.hero{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    }
+
+::before{
+    content: '';
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    background-image: url('/Users/DirtyBird/Desktop/Coding Projects/Transparent-BG/images/faded-laptop.jpg');
+    background-size: cover;
+    background-position: top center;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+.hero-text{
+    position: relative;
+    font-size: 5rem;
+    text-align: center;
+}
+
+p {
+    font-weight: 500;
+    color: black;
+    font-family: 'Anton', sans-serif;
+}
+
+.full-name{
+    font-family: 'Dancing Script', cursive;
+}
+
+.darker-bar{
+    z-index: 2;
+    font-weight: bolder;
+}
